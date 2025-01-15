@@ -136,6 +136,17 @@ Este projeto permite controlar um relé conectado a uma porta serial usando um s
   - Verifique se o player e o servidor estão na mesma máquina ou na mesma rede.
 
 ---
+## Arquivo BAT para Automatização
+
+Se você deseja automatizar a execução do servidor Node.js, crie um arquivo .bat com o seguinte conteúdo para facilitar o processo:
+
+1. **Crie o arquivo `start_server.bat`** no mesmo diretório do `server.js` e adicione o seguinte código:
+
+   ```bat
+   @echo off
+   echo Iniciando servidor Node.js...
+   node server.js
+   pause
 
 ## Conclusão
 Este guia permite configurar e controlar um relé usando Node.js e integrar o controle com o Portal . Se seguir todas as etapas corretamente, você poderá gerenciar o relé tanto pelo navegador quanto através do painel de campanhas da Digital .
