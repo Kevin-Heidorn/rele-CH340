@@ -1,7 +1,7 @@
 # Guia de Configuração e Uso: Relé com Node.js e Digital Signage 
 
 ## Descrição
-Este projeto permite controlar um relé conectado a uma porta serial usando um servidor Node.js. O controle pode ser feito tanto localmente via navegador quanto integrado ao OnSign TV.
+Este projeto permite controlar um relé conectado a uma porta serial usando um servidor Node.js. O controle pode ser feito tanto localmente via navegador quanto integrado ao portal.
 
 ---
 
