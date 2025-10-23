@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "serialport": "^13.0.0"
+  },
+  "name": "rele-ch340",
+  "version": "1.0.0",
+  "description": "Este projeto permite controlar um relé conectado a uma porta serial usando um servidor Node.js. O controle pode ser feito tanto localmente via navegador quanto integrado ao portal.",
+  "main": "Android.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Heidorn/rele-CH340.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-Heidorn/rele-CH340/issues"
+  },
+  "homepage": "https://github.com/Kevin-Heidorn/rele-CH340#readme"
+}
